@@ -15,7 +15,8 @@ Programmer: Mohammad Fawad Mohammadi
 </head>
 <body>
 <div id="wrapper">
-<h1>Maihan Social & Cultural Community</h1>
+<h1>Maihan Social & Cultural Community
+<img src="MSCC_Logo.jpeg" alt="Paris" width="110" height="100"></h1>
     <a id="top"></a>
 
     <aside>
@@ -121,7 +122,29 @@ I also engage in conversations with good faith and provide constructive feedback
 
     </P>
     
-    <input id="mySubmit" type="Submit" value="Submit">
+    <script>
+    function disableSubmit() {
+        document.getElementById("submit").disabled = true;
+       }
+      
+        function activateButton(element) {
+      
+            if(element.checked) {
+              document.getElementById("submit").disabled = false;
+             }
+             else  {
+              document.getElementById("submit").disabled = true;
+            }
+      
+        }
+      </script>
+      </head>
+      
+      <body onload="disableSubmit()">
+       <input  class="term"   type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  <p class="term">I Agree Terms & Coditions</p>
+      <br><br>
+    
+    <input type="submit" name="submit" id="submit">
     </form>
     
  
