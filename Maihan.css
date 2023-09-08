@@ -1,7 +1,7 @@
 /*
 Assignment Name: Final Project
-File Name: portland_tours.css
-Date: 06/03/2019
+File Name: MaihanCommunity_MembershipForm
+Date: 09/07/2023
 Programmer: Mohammad Fawad, Mohammadi
 */
 body {
@@ -13,7 +13,7 @@ body {
 h1 {
 	background-color: rgb(51, 102, 153);
 	color: white;
-	background-image: url(MSCC_Logo_.jpeg);
+	background-image: url(../MSCC_Logo_.jpeg);
 	background-position: 15px;
 	background-repeat: no-repeat;
 	background-size: 100px;
@@ -22,6 +22,10 @@ h1 {
 	padding: 10px 10px 10px;
 	
 }
+img {
+	border-radius: 60%;
+	float: left;
+  }
 class {
 	float: left;
 
@@ -133,6 +137,10 @@ input, textarea {
 	display: block;
 	margin-bottom: 1em;
 }
+.term {
+	display: inline;
+
+}
 
 #mySubmit {
 	
@@ -169,7 +177,10 @@ input, textarea {
 		padding-top: 0;
 		font-size: 90%;
 	}
-
+	img {
+		border-radius: 60%;
+		float: left;
+	  }
 	aside {
 		display: none;
 	}
@@ -224,6 +235,13 @@ input, textarea {
 		text-align: center;
 		background-size: 13%;
 	}
+
+	img {
+		border-radius: 60%;
+		float: left;
+		height: 50px;
+		width: 50px;
+	  }
 
 	nav {
 		padding: 0;
